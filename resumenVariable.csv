@@ -1,0 +1,22 @@
+﻿Nombre columna,Descripción,Posibles valores,Tipo de dato,Justificación
+Year,Año,2011,Categóricas: Numérico,"El año se puede seleccionar en este dataset el único año es 2011, pero si se agregaran más dartos se converitiría en una opción."
+Month ,Mes,(1-12),Categóricas: Numérico,"En el dataset se representa el número con el mes, es decir el 1 es Enereo; 2 es Febrero; y así sucesibamente."
+DayofMonth,Día,(1-31),Categóricas: Numérico,En el dataset se indica el día del mes y el limite es 31 ya que es el número máximo de días que puede tener un mes.
+DayOfWeek ,Día de la semana en que Salío el avión.,(1-7),Categóricas: Numérico,Los valores van del 1 al 7 para idicar 1 -Lunes
+DepTime ,"Tiempo de salida del avión (en tiempo local, hhmm)",(1 - 2400),Categóricas: Numérico,Puede tomar varios valores desde 1 al 2400
+ArrTime ,"Tiempo de llegada del avión (en tiempo local, hhmm)",(1 - 2400),Categóricas: Numérico,Puede tomar varios valores desde 1 al 2400
+UniqueCarrier ,Abreviación única de aerolineas,"AA ""AS"" ""B6"" ""CO"" ""DL"" ""EV"" ""F9"" ""FL"" ""MQ"" ""OO"" ""UA"" ""US"" ""WN"" ""XE"" ""YV""",Categóricas: Texto,Es un catálago finito de aerolineas
+FlightNum ,Número de vuelo,"25, 8, 2590, 35, 1",Categóricas: Numérico,El número de vuelo se puede repeticr constantemente
+TailNum ,Número de control para identificar el avion,"""N576AA ""N557AA"" ""N541AA"" ""N403AA"" ""N492AA""",Categóricas: Texto,Pude ser cualquier número asigndo ocmo identificador del avión e incluyen letras.
+ActualElapsedTime ,Tiempo transcurrido,"60, 70, 80",Númericas,puede tomar varios valores en terminos de minutos
+AirTime ,Tiempo de vuelo,"11, 58,107",Númericas,puede tomar varios valores en terminos de minutos
+ArrDelay ,Retraso de llegada,"11,-70-8.",Númericas,puede tomar varios valores en terminos de minutos
+DepDelay ,Retraso de salida,"9, -3, -33",Númericas,puede tomar varios valores en terminos de minutos
+Origin ,Origen,"""HOU"" ""IAH""",Categóricas: Texto,Selección del origen
+Dest ,Destino,"""AEX"" ""BKG""""SAV""",Categóricas: Texto,Selección del destino
+Distance ,Distancia del vuelo en millas,"79, 46, 180",Númericas,Puede tomar varios valores de distancia
+TaxiIn ,Tiempo llrgada de taxi,(1 - 165),Númericas,Puede tomar varios valores expresado en minutos
+TaxiOut ,"Tiempo de llegada del avión (en tiempo local, hhmm)",(1 - 163),Númericas,Puede tomar varios valores expresado en minutos
+Cancelled ,Cancelado,"1,0",Categóricas: Numérico,"1 = si, 2=no"
+CancellationCode ,Código de cancelación,"A,B,C,D",Categóricas: Texto,"A=aerolinea, B=Clima, C=Sistema nacional de vuelo, D=Seguridad"
+Diverted ,Desviado,"1,0",Categóricas: Numérico,"1 = si, 2=no"

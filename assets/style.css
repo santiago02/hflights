@@ -1,0 +1,13 @@
+
+
+div.pink pre { background-color:#ff81b0; }
+div.pink pre.r { background-color:	#ff4b8e; }
+
+div.green pre { background-color:#a3e9c4; }
+div.green pre.r { background-color:	#93dcc3; }
+
+tbody tr:nth-child(odd){
+    background-color: #a3e9c4;
+  }
+
+  body {background-color: #f1b3cf;}

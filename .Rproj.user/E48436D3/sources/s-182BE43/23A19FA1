@@ -1,0 +1,24 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1540574686729.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1353312517",
+    "id" : "23A19FA1",
+    "lastKnownWriteTime" : 1541135784,
+    "last_content_update" : 1541135784440,
+    "path" : "~/Documents/Desarrollo/R/hflights/hflights_DASR_1320235.Rmd",
+    "project_path" : "hflights_DASR_1320235.Rmd",
+    "properties" : {
+        "cursorPosition" : "167,93",
+        "last_setup_crc32" : "",
+        "scrollLine" : "161",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
